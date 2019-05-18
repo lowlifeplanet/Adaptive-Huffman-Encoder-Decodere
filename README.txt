@@ -15,7 +15,7 @@ Differential encode routine:
 	Run Matlab
 	Change current working directory to where 'mainEncode.m' resides
 	In Matlab console, run the following:
-		$ mainEncode('inputFile', 'outputFile')
+		`$ mainEncode('inputFile', 'outputFile')`
 	Where inputFile is the input image, and outputFile is the file to save to.
 	Note that both names must be surrounded by '' in order to be recognized.
 	
@@ -23,7 +23,7 @@ Differential decode routine:
 	Run Matlab
 	Change current working directory to where 'mainEncode.m' resides
 	In Matlab console, run the following:
-		$ mainDecode('encodedFile')
+		`$ mainDecode('encodedFile')`
 	Where encodedFile is the file that contains the differential encoded information.
 	Note that the file name must be surrounded by '' in order to be recognized.	
 
